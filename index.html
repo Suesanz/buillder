@@ -2,12 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Title</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <title>ADBuilder</title>
+
+
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
@@ -31,6 +28,8 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 
 
@@ -103,9 +102,16 @@
 <!--carousel-->
 
 <!--Carousel Wrapper-->
+
+
+<!--Carousel Wrapper-->
 <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
     <!--Indicators-->
-
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
     <!--/.Indicators-->
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
@@ -126,7 +132,19 @@
         <!--/Third slide-->
     </div>
     <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
 </div>
+<!--/.Carousel Wrapper-->
+
 <!--/.Carousel Wrapper-->
 <!--div-->
 <div id="div1">
@@ -139,30 +157,30 @@
         Highlights
     </div>
     <div class="container " id="cont">
-        <div class="row ">
-            <div class="chip chip-lg ">
+        <div class="row " >
+            <div class="chip cc chip-lg " id="row">
                 <img src="pics/Building.svg"> Total Floors: 5
             </div>
 
-            <div class="chip chip-lg">
+            <div class="chip cc chip-lg">
                 <img src="pics/Road.svg" alt="Contact Person"> Facing Road Width: 30
                 Feet
             </div>
 
-            <div class="chip chip-lg">
+            <div class="chip cc chip-lg">
                 <img src="pics/Water.svg" alt="Contact Person"> Water Source: MCD &
                 Submersible
             </div>
 
-            <div class="chip chip-lg">
+            <div class="chip cc chip-lg">
                 <img src="pics/Brush.svg" alt="Contact Person"> Design Consultant: A D
                 Homes
             </div>
-            <div class="chip chip-lg">
+            <div class="chip cc chip-lg">
                 <img src="pics/Landscape.svg" alt="Contact Person"> Landscape Consultant: A
                 D Homes
             </div>
-            <div class="chip chip-lg">
+            <div class="chip cc chip-lg">
                 <img src="pics/Construction.svg" alt="Contact Person"> Construction By: A D
                 Infraheight Builders Pvt. Ltd.
             </div>
