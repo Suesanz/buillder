@@ -1,0 +1,205 @@
+.btn {
+    border-radius: 15px;
+    color: white;
+
+}
+
+#div1 {
+    text-align: center;
+    padding-top: 0.5rem;
+    background-color: darkslateblue;
+    height: 1.6cm;
+    font-size: 1.5rem;
+}
+
+#poa {
+    background-color: red;
+    color: white;
+    padding: 0.2cm;
+}
+
+#cont, #cont2 {
+    margin-left: 20%;
+}
+
+.chip.chip-md img {
+    height: 42px;
+    width: 42px;
+
+}
+
+.chip.chip-lg {
+    height: 55px;
+    line-height: 52px;
+    border-radius: 26px;
+    margin-top: 0.5cm;
+    margin-left: 0.5cm;
+}
+
+.chip.chip-lg img {
+    height: 52px;
+    width: 52px;
+}
+
+#highlight, #fac {
+    text-align: center;
+    padding: 1cm;
+    font-size: 2rem;
+}
+
+#glance {
+    background-color: #4285F4;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.card {
+    display: inline-block;
+
+}
+
+#chip {
+    margin-bottom: 1cm;
+}
+
+#chip, #icons1, #icons2 {
+
+    text-align: center;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9 {
+    padding: 1cm;
+
+    margin-right: auto;
+}
+
+#sec, #amen {
+    border-radius: 15px;
+
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    color: #4285F4;
+}
+
+.title-primary {
+    display: inline-block;
+}
+
+/*Button pill*/
+#amen:hover, #sec:hover, #sec1:hover, #amen1:hover, #2bhk:hover, #3bhk:hover, #bhk1:hover, #bhk2:hover {
+
+    color: rgba(255, 255, 255, 1);
+    background: #4285F4 -100% 100%;
+
+}
+
+#amen, #sec, #2bhk, #3bhk {
+    display: inline-block;
+
+    font: normal normal 300 1.3em 'Open Sans';
+    text-decoration: none;
+
+    color: #f1f1f1;
+    background-color: transparent;
+    border: 1px solid #4285F4;
+    border-radius: 100px;
+
+    padding: .3em 1.2em;
+    margin: 5px;
+
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, transparent 50%, #4285F4 50%);
+    transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s, color .5s ease 0s, background-color .5s ease;
+
+}
+
+/*-------*/
+#specs {
+    text-align: center;
+}
+
+#prop {
+    text-align: center;
+    padding: 1cm;
+}
+
+#div2 {
+    padding: 2cm;
+    background-color: #44C3F7;
+}
+
+#panel1 {
+    margin-left: 30%;
+}
+
+#panel1 > .card {
+    overflow: hidden;
+    height: 5cm;
+}
+
+#look, #floor {
+    text-align: center;
+
+}
+
+#modal, #modal3 {
+    text-align: center;
+
+}
+
+#unit {
+    text-align: center;
+    padding: 1cm;
+}
+
+#btnbhk, #btnbhk1 {
+    margin: auto;
+
+}
+
+#btnbhk1 {
+    padding: 0.5cm;
+}
+
+#closer,#unit,#prop,#at {
+    color: #f1f1f1
+}
+
+#bhk, #closer {
+    text-align: center;
+    padding: 1cm;
+}
+
+#light {
+    margin: auto;
+
+}
+
+#footer {
+    background-color: #033549;
+    color: #f1f1f1;
+}
+
+.call-to-action, .footer-copyright {
+    text-align: center;
+}
+
+#modal1, #modal3 {
+    background-color: #3667BA;
+
+}
+
+#closer1 {
+    background-color: #44C3F7;
+}
+
