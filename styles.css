@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .btn {
     border-radius: 15px;
     color: white;
@@ -212,5 +220,8 @@ figcaption {
 
 #closer1 {
     background-color: #44C3F7;
+}
+.nav-item:hover{
+    border-bottom: 2px solid #033549;
 }
 
